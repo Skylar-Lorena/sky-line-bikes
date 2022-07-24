@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 
 function App() {
@@ -7,16 +7,16 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome to SKY-LINE-BIKES! 
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+     
+        <p> If new to biking and unsure on how to get started,  <a
+    className="App-link"
+    href="https://roadcyclinguk.com/how-to/technique/beginners-guide-choose-right-gear-ratios-road-bike.html"
+    target="_blank"
+    rel="noopener noreferrer"
+  >check out this article.
+        </a></p>
       </header>
     </div>
   );
